@@ -1,0 +1,4 @@
+- name: Install PHP on Ubuntu
+  ansible.builtin.apt:
+    name: php-mysql
+    state: present
